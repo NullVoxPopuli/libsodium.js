@@ -9,7 +9,7 @@ make
 
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
-git checkout -b emberclear
+( git checkout -b emberclear || git checkout emberclear )
 git remote rm origin
 git remote add origin "https://NullVoxPopuli:$GH_TOKEN@github.com/NullVoxPopuli/libsodium.js.git"
 git add .
