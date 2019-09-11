@@ -1,5 +1,7 @@
 aead_aes256gcm.html
+aead_aes256gcm2.html
 aead_chacha20poly1305.html
+aead_chacha20poly13052.html
 aead_xchacha20poly1305.html
 auth.html
 auth2.html
@@ -24,6 +26,7 @@ core4.html
 core5.html
 core6.html
 core_ed25519.html
+core_ristretto255.html
 ed25519_convert.html
 generichash.html
 generichash2.html
@@ -48,7 +51,9 @@ scalarmult2.html
 scalarmult5.html
 scalarmult6.html
 scalarmult7.html
+scalarmult8.html
 scalarmult_ed25519.html
+scalarmult_ristretto255.html
 secretbox.html
 secretbox2.html
 secretbox7.html
